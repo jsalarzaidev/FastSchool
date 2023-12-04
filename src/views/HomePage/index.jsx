@@ -10,15 +10,9 @@ const HomePage = () => {
   return (
     <main className={styles.homePage}>
       <LeadBanner />
-      <section className={styles.features}>
-        <Feature />
-      </section>
-      <section className={styles.testimonials}>
-        <Testimonial />
-      </section>
-      <section className={styles.contact}>
-        <ContactForm />
-      </section>
+      <section className={styles.features}>{/* <Feature /> */}</section>
+      <section className={styles.testimonials}>{/* <Testimonial /> */}</section>
+      <section className={styles.contact}>{/* <ContactForm /> */}</section>
     </main>
   );
 };
