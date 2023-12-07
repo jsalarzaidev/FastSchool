@@ -1,0 +1,14 @@
+.roundbutton {
+  padding: 1rem 2rem;
+  border: 1px solid #fff;
+  background-color: rgba(22, 22, 22, 0); /* Button background color */
+  color: #ffffff; /* Button text color */
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.roundbutton:hover {
+  background-color: #fff;
+  color: purple; /* Button hover state color */
+}

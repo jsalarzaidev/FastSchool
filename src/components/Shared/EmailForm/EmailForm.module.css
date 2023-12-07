@@ -1,0 +1,27 @@
+.emailForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 10px;
+}
+
+.emailForm h2 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.emailForm input {
+  width: 65%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #fff; /* Border color */
+  background-color: rgba(22, 33, 81, 0); /* Input background color */
+  color: #ffffff; /* Text color */
+  border-radius: 20px;
+  outline: none;
+}
+
+.emailForm input::placeholder {
+  color: #fff; /* Placeholder text color */
+}

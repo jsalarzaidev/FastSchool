@@ -1,0 +1,16 @@
+/* Use.css */
+/* .use_container { */
+/*   display: flex; */
+/*   justify-content: center; */
+/*   align-items: center; */
+/*   gap: 2rem; */
+/*   padding: 2rem; */
+/* } */
+
+.use_container {
+  display: flex; /* Use flexbox to lay out children */
+  justify-content: center; /* Center children horizontally */
+  align-items: center; /* Center children vertically */
+  padding: 3rem; /* Add some padding around the container */
+  gap: 30px; /* Space between the two boxes */
+}

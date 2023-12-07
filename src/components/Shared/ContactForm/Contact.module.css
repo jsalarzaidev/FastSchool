@@ -1,0 +1,43 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #2c2c54; /* Dark background color */
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.contactForm .inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contactForm input,
+.contactForm textarea {
+  padding: 1rem;
+  border-radius: 20px; /* Rounded corners for inputs */
+  border: 1px solid #40407a; /* Border color */
+  background-color: #40407a; /* Input background color */
+  color: #fff; /* Text color */
+  outline: none;
+}
+
+.contactForm textarea {
+  resize: none; /* Disable resizing for textarea */
+  height: 150px; /* Fixed height for textarea */
+}
+
+.contactForm button {
+  padding: 1rem 2rem;
+  border-radius: 20px; /* Rounded corners for the button */
+  border: none;
+  background-color: #706fd3; /* Button background color */
+  color: #fff; /* Button text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.contactForm button:hover {
+  background-color: #474787; /* Button hover state color */
+}

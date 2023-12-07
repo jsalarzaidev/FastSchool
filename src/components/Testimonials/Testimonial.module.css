@@ -1,0 +1,8 @@
+/* Testimonials.css */
+.testimonialsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; /* Space between cards */
+  justify-content: center; /* Center the cards in the container */
+  padding: 2rem;
+}

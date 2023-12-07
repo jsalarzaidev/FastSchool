@@ -1,0 +1,4 @@
+.main {
+  margin-left: var(--main-margin);
+  margin-right: var(--main-margin);
+}

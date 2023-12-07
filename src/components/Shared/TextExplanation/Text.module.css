@@ -1,0 +1,14 @@
+/* TextExplanation.css */
+.text-explanation {
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.text-explanation h1 {
+  margin-bottom: 1rem;
+}
+
+.text-explanation p {
+  font-size: 1rem;
+}

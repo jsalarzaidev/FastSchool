@@ -1,0 +1,16 @@
+/* SocialLinks.css */
+.social_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social_links a {
+  color: #fff; /* Adjust color as needed */
+  transition: color 0.3s ease;
+}
+
+.social_links a:hover {
+  color: #aaa; /* Adjust hover color as needed */
+}

@@ -1,0 +1,14 @@
+/* Video.css */
+.video {
+  width: 40%; /* Full width of the parent container */
+  padding-top: 56.25%; /* Aspect ratio of 16:9 */
+  position: relative; /* For positioning iframe absolutely inside the div */
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 70%;
+}
