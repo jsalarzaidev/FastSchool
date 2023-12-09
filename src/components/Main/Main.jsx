@@ -1,21 +1,20 @@
 import React from "react";
 import Call from "../CallAction/Call";
-import Footer from "../Footer/Footer";
 import Hero from "../Hero/Hero";
-import What from "../HowtoUse/Use";
+import What from "../WhatItDoes/what";
 import Use from "../HowtoUse/Use";
 import Testimonials from "../Testimonials/Testimonial";
+import styles from "./Main.module.css";
 
 function Main() {
   return (
-    <div className="App">
+    <main className={styles.main}>
       <Hero />
       <Use />
       <What />
       <Testimonials />
       <Call />
-      <Footer />
-    </div>
+    </main>
   );
 }
 

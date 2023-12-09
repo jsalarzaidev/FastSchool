@@ -3,7 +3,11 @@ import React from "react";
 import styles from "./Button.module.css";
 
 const Button = ({ text }) => {
-  return <button className={styles.roundbutton}>{text}</button>;
+  return (
+    <div className={styles.submitButton}>
+      <button className={styles.roundbutton}>{text}</button>
+    </div>
+  );
 };
 
 export default Button;

@@ -1,14 +1,13 @@
-/* TextExplanation.css */
-.text-explanation {
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
+.text_explanation {
+  max-width: 40%;
 }
 
-.text-explanation h1 {
-  margin-bottom: 1rem;
+.text_explanation h1 {
+  font-size: 2.5rem;
+  margin: 0;
 }
 
-.text-explanation p {
+.text_explanation p {
   font-size: 1rem;
+  line-height: 1.7rem;
 }

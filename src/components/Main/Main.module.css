@@ -1,4 +1,4 @@
-.main {
-  margin-left: var(--main-margin);
-  margin-right: var(--main-margin);
+main {
+  /* border: 1px solid #fff; */
+  /* background-color: #00ff00; */
 }

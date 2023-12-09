@@ -1,11 +1,12 @@
-// AppExplanation.js
 import React from "react";
 import styles from "./AppExplanation.module.css";
 
 const AppExplanation = () => {
   return (
     <div className={styles.appExplanation}>
-      <h1>Semplifica la Scuola con un click</h1>
+      <h1>
+        Semplifica la Scuola <span>con un click</span>
+      </h1>
       <p>
         VELODZZA LE ATTIVITA DIDATTICHE E RENDE L'APPREDMENTO PIU ACCESSIBLE E
         INTERESETSANTE GRAZE AIINTELLIGENZA ARTIFICIALE. CREA GUZ E LEZIONI

@@ -1,14 +1,19 @@
+.submitButton {
+  /* background-color: fuchsia; */
+}
+
 .roundbutton {
-  padding: 1rem 2rem;
-  border: 1px solid #fff;
+  font-size: 1.2rem;
+  border: 1px solid rgba(200, 200, 200, 0.3);
+  padding: 1.2rem 2rem;
   background-color: rgba(22, 22, 22, 0); /* Button background color */
   color: #ffffff; /* Button text color */
-  border-radius: 20px;
+  border-radius: 100px;
   cursor: pointer;
   transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 .roundbutton:hover {
   background-color: #fff;
-  color: purple; /* Button hover state color */
+  color: #000;
 }

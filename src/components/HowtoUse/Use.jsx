@@ -1,18 +1,17 @@
-// Use.js
 import React from "react";
 import TextExplanation from "../Shared/TextExplanation/TextExplanation";
 import Video from "../Shared/VideoExample/Video";
 import styles from "./use.module.css";
 
-const What = () => {
-  const videoId = "YOUR_YOUTUBE_VIDEO_ID"; // Replace with actual YouTube video ID
+const Use = () => {
+  const videoId = "5YJ7GfOUPDE?si=wqaKQu6P-t4R2jY2&amp;controls=0";
 
   return (
-    <div className={styles.use_container}>
+    <section className={styles.use_container}>
       <Video videoId={videoId} />
       <TextExplanation />
-    </div>
+    </section>
   );
 };
 
-export default What;
+export default Use;

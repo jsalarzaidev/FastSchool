@@ -1,3 +1,14 @@
+.form {
+  /* background-color: orange; */
+  /* margin: 1.5rem 0; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .emailForm {
   display: flex;
   flex-direction: column;
@@ -6,20 +17,23 @@
   border-radius: 10px;
 }
 
-.emailForm h2 {
+.emailForm h3 {
+  font-weight: 200;
   color: #ffffff;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 .emailForm input {
-  width: 65%;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border: 1px solid #fff; /* Border color */
-  background-color: rgba(22, 33, 81, 0); /* Input background color */
-  color: #ffffff; /* Text color */
-  border-radius: 20px;
+  width: 85%;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1.7rem;
+  margin-bottom: 1.2rem;
+  background-color: rgba(22, 33, 81, 0);
+  /* color: #ffffff; */
+  border-radius: 100px;
   outline: none;
+  border: 1px solid rgb(200, 200, 200, 0.3);
 }
 
 .emailForm input::placeholder {
