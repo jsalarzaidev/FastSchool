@@ -8,6 +8,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <ContactForm />
       <SocialLinks />
+      <p>Copyrights &copy; 2016</p>
     </footer>
   );
 };

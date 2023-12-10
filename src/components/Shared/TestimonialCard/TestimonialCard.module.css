@@ -1,24 +1,35 @@
 /* TestimonialCard.css */
 .testimonialCard {
-  display: grid;
-  grid-template-rows: auto 1fr auto; /* Image, name, and text */
-  align-items: center;
-  text-align: center;
   color: #fff; /* Adjust text color as needed */
-  padding: 1rem;
+  padding: 0 1rem;
   gap: 0.5rem;
+  max-width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  /* flex-wrap: wrap; */
 }
 
 .imageContainer {
   width: 100%; /* Set to control image size */
-  padding-top: 100%; /* Aspect ratio 1:1 for the image container */
-  position: relative;
+  /* padding-top: 100%; */
+  /* position: relative; */
 }
 
 .imageContainer img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  /* right: 0; */
+  width: 50%;
+  height: auto;
+}
+
+.testimonialCard h1 {
+  margin: 1.5rem 0;
+}
+
+.testimonialCard p {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
 }

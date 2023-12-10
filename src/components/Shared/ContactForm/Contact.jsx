@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Contact.module.css";
+import styles from "./Contact.module.css";
 
 const ContactForm = () => {
   const [name, setName] = useState("");
@@ -13,8 +13,8 @@ const ContactForm = () => {
   };
 
   return (
-    <form className="contactForm" onSubmit={handleSubmit}>
-      <div className="inputGroup">
+    <form className={styles.contactForm} onSubmit={handleSubmit}>
+      <div className={styles.inputGroup}>
         <input
           type="text"
           placeholder="NOME"
@@ -37,7 +37,9 @@ const ContactForm = () => {
           onChange={(e) => setMessage(e.target.value)}
         />
       </div>
-      <button type="submit">INVIA</button>
+      <button className={styles.submit} type="submit">
+        INVIA
+      </button>
     </form>
   );
 };

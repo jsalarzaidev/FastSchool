@@ -8,7 +8,7 @@ const TestimonialCard = ({ name, text, imageUrl }) => {
       <div className={styles.imageContainer}>
         <img src={imageUrl} alt={`${name}`} />
       </div>
-      <h3>{name}</h3>
+      <h1>{name}</h1>
       <p>{text}</p>
     </div>
   );
