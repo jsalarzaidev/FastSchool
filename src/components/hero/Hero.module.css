@@ -1,0 +1,23 @@
+.hero {
+  /* width: 100vw; */
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* align-content: flex-start; */
+  align-items: center;
+  /* justify-content: space-between; */
+  /* width: 55%; */
+  /* margin: auto; */
+  gap: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    align-items: center;
+    justify-content: center;
+    /* height: 50vh; */
+    width: 100%;
+  }
+}

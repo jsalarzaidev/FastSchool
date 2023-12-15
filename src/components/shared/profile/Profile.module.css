@@ -1,0 +1,17 @@
+.profile {
+  display: flex;
+  background-color: aqua;
+  padding: 2rem 5rem;
+  justify-content: space-between;
+}
+.profileList {
+  list-style: none;
+  display: flex;
+}
+
+.profileList li {
+  font-size: 1rem;
+  margin-left: 2rem;
+  cursor: pointer;
+  font-weight: 900;
+}

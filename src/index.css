@@ -4,46 +4,11 @@
 * rgba(22, 12, 30, 1) 75%, dark purple 
 * rgba(18, 62, 99, 1) 100% blue 
 * */
-
 body {
   margin: 0;
   padding: 0;
+
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  background: linear-gradient(
-    45deg,
-    rgba(65, 31, 81, 1) 20%,
-    rgba(22, 12, 30, 1) 65%,
-    rgba(18, 62, 99, 1) 150%
-  );
-  color: white;
-  min-height: 100vh;
-  width: 100vw;
-  overflow-x: hidden;
-}
-
-/* Adjust gradient for medium-sized screens */
-@media (max-width: 768px) {
-  body {
-    background: linear-gradient(
-      90deg,
-      rgba(65, 31, 81, 1) 20%,
-      rgba(22, 12, 30, 1) 65%,
-      rgba(18, 62, 99, 1) 150%
-    );
-  }
-}
-
-/* Adjust gradient for small screens */
-@media (max-width: 480px) {
-  body {
-    background: linear-gradient(
-      0deg,
-      rgba(65, 31, 81, 1) 0%,
-      rgba(22, 12, 30, 1) 50%,
-      rgba(18, 62, 99, 1) 150%
-    );
-  }
 }
